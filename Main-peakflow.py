@@ -35,4 +35,7 @@ def askHeight():
                if option == 1: 
                    height_inches=("Eneter your height in inches: ")
                    final_hight = height_inches * 2.54
-                   
+                   predicted_value=((((final_height/100) x 5.48) + 1.58) - (age * 0.041)) * 60)
+ 
+
+
