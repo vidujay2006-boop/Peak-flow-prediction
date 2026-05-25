@@ -29,13 +29,11 @@ def askAgeMale():
         askAgeMale()
 
 askGender()
-
 def askHeight(): 
-    option=int(input("Enter your height, do you choose to enter in inches (1) or cm (2): ")
-               if option == 1: 
+    option=int(input("Enter your height, do you choose to enter in inches (1) or cm (2): "))
+    if option == 1: 
                    height_inches=("Eneter your height in inches: ")
                    final_hight = height_inches * 2.54
-                   predicted_value=(((final_height/100) x 5.48) + 1.58) - (age * 0.041) * 60
+                   predicted_value= (final_hight * 548 + 158) - (age * 2.46)
  
-
 
